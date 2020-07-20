@@ -1,106 +1,101 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
 }
 
-.name{
+.name {
     font-size: 22px;
     font-weight: 800;
     padding-top: 6px;
     color: darkblue;
 }
 
-
-.navbar-brand img{
+.navbar-brand img {
     height: 50px;
     width: 50px;
-    
 }
 
-#nav-bar{
-
+#nav-bar {
     position: sticky;
     top: 0;
     z-index: 10;
-} 
+}
 
-.navbar-nav li{
+.navbar-nav li {
     padding: 0px 10px;
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
     float: right;
     text-align: left;
 }
 
-#nav-bar ul li a:hover{
+#nav-bar ul li a:hover {
     color: #007bff!important
 }
 
-.navbar{
+.navbar {
     background: bisque;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none!important;
 }
 
-.nav-link{
+.nav-link {
     color: #555!important;
     font-weight: 700;
     font-size: 13px;
 }
 
-.slider{
+.slider {
     width: 100%;
 }
 
-.slider h4{
+.slider h4 {
     top: 10%;
     transform: translateY(10%);
     transform: translateX(43%);
     bottom: initial!important;
 }
 
-#about{
+#about {
     text-align: center;
     margin-top: 0px;
     background-color: aliceblue;
 }
 
-#about p{
+#about p {
     font-size: 24px;
     padding: 35px;
     background-color: aliceblue;
 }
 
-#about h2{
+#about h2 {
     padding-top: 30px;
     font-weight: 600;
 }
 
-#about img{
+#about img {
     height: 400px;
     margin-bottom: 20px;
     box-shadow: 5px 5px 5px rgb(171, 213, 250);
 }
 
-#about img:hover{
-    
+#about img:hover {
     box-shadow: 8px 8px 8px rgb(171, 213, 250);
 }
 
-#menu{
+#menu {
     text-align: center;
 }
 
-#menu h2{
+#menu h2 {
     margin: 20px;
     font-weight: 600
 }
 
-.card{
+.card {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
@@ -109,35 +104,35 @@
     float: right;
 }
 
-#card mb-3{
+#card mb-3 {
     float: left !important;
     width: 80% !important;
 }
 
-#OrderChoice{
+#OrderChoice {
     width: 50% !important;
 }
 
-#noOfItems{
+#noOfItems {
     width: 50% !important;
 }
 
-#order{
+#order {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-#order h2{
+#order h2 {
     text-align: center;
 }
 
-.form-group{
+.form-group {
     background-color: aliceblue;
     padding: 15px;
 }
 
-.teamCard{
+.teamCard {
     margin-left: 20px !important;
     margin-right: 20px !important;
     margin-top: 30px;
@@ -146,13 +141,13 @@
     float: left;
 }
 
-#team{
+#team {
     text-align: center;
 }
 
-.btn-whatsapp{
-    background:url('img/wp.png') no-repeat left center ;
-    padding-left:20px;
+.btn-whatsapp {
+    background: url('img/wp.png') no-repeat left center;
+    padding-left: 20px;
     height: 50px;
     width: 200px;
     color: rgb(255, 255, 255);
@@ -161,22 +156,21 @@
     border-radius: 5px;
 }
 
-.btn-whatsapp:hover{
+.btn-whatsapp:hover {
     background-color: rgb(30, 163, 79);
 }
 
-#contact{
+#contact {
     text-align: center;
 }
 
-#contact h2{
+#contact h2 {
     padding: 30px;
-    
 }
 
-.btn-facebook{
-    background:url('img/fb.png') no-repeat left center ;
-    padding-left:20px;
+.btn-facebook {
+    background: url('img/fb.png') no-repeat left center;
+    padding-left: 20px;
     height: 50px;
     width: 200px;
     color: rgb(255, 255, 255);
@@ -185,13 +179,13 @@
     border-radius: 5px;
 }
 
-.btn-facebook:hover{
-    background-color:  #1c3977;
+.btn-facebook:hover {
+    background-color: #1c3977;
 }
 
-.btn-facebook{
-    background:url('img/fb.png') no-repeat left center ;
-    padding-left:20px;
+.btn-facebook {
+    background: url('img/fb.png') no-repeat left center;
+    padding-left: 20px;
     height: 50px;
     width: 200px;
     color: rgb(255, 255, 255);
@@ -200,13 +194,13 @@
     border-radius: 5px;
 }
 
-.btn-facebook:hover{
-    background-color:  #1c3977;
+.btn-facebook:hover {
+    background-color: #1c3977;
 }
 
-.btn-ig{
-    background:url('img/ig.png') no-repeat left center ;
-    padding-left:20px;
+.btn-ig {
+    background: url('img/ig.png') no-repeat left center;
+    padding-left: 20px;
     height: 50px;
     width: 200px;
     color: rgb(255, 255, 255);
@@ -215,11 +209,11 @@
     border-radius: 5px;
 }
 
-.btn-ig:hover{
-    background-color:  #b92a42;
+.btn-ig:hover {
+    background-color: #b92a42;
 }
 
-#footer{
+#footer {
     text-align: center;
     margin-top: 20px;
     background-color: rgb(68, 19, 19);
@@ -227,17 +221,17 @@
     padding: 20px;
 }
 
-.lblContact{
+.lblContact {
     display: inline-block;
 }
 
-.price{
+.price {
     color: red;
     font-weight: 800;
     font-size: 25px;
 }
 
-.container{
+.container {
     width: 60%;
     background-color: rosybrown;
     margin-left: 20%;
@@ -246,6 +240,6 @@
     margin-bottom: 5%;
 }
 
-.container h2{
+.container h2 {
     text-align: center;
 }
