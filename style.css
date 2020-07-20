@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 6px;
+    color: darkblue;
+}
+
+
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+#nav-bar{
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} 
+
+.navbar-nav li{
+    padding: 0px 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff!important
+}
+
+.navbar{
+    background: bisque;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link{
+    color: #555!important;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.slider{
+    width: 100%;
+}
+
+.slider h4{
+    top: 10%;
+    transform: translateY(10%);
+    transform: translateX(43%);
+    bottom: initial!important;
+}
+
+#about{
+    text-align: center;
+    margin-top: 0px;
+    background-color: aliceblue;
+}
+
+#about p{
+    font-size: 24px;
+    padding: 35px;
+    background-color: aliceblue;
+}
+
+#about h2{
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+#about img{
+    height: 400px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgb(171, 213, 250);
+}
+
+#about img:hover{
+    
+    box-shadow: 8px 8px 8px rgb(171, 213, 250);
+}
+
+#menu{
+    text-align: center;
+}
+
+#menu h2{
+    margin: 20px;
+    font-weight: 600
+}
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    float: right;
+}
+
+#card mb-3{
+    float: left !important;
+    width: 80% !important;
+}
+
+#OrderChoice{
+    width: 50% !important;
+}
+
+#noOfItems{
+    width: 50% !important;
+}
+
+#order{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#order h2{
+    text-align: center;
+}
+
+.form-group{
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.teamCard{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    float: left;
+}
+
+#team{
+    text-align: center;
+}
+
+.btn-whatsapp{
+    background:url('img/wp.png') no-repeat left center ;
+    padding-left:20px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 211, 102);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-whatsapp:hover{
+    background-color: rgb(30, 163, 79);
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact h2{
+    padding: 30px;
+    
+}
+
+.btn-facebook{
+    background:url('img/fb.png') no-repeat left center ;
+    padding-left:20px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: #3b5998;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-facebook:hover{
+    background-color:  #1c3977;
+}
+
+.btn-facebook{
+    background:url('img/fb.png') no-repeat left center ;
+    padding-left:20px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: #3b5998;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-facebook:hover{
+    background-color:  #1c3977;
+}
+
+.btn-ig{
+    background:url('img/ig.png') no-repeat left center ;
+    padding-left:20px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: #fb3958;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-ig:hover{
+    background-color:  #b92a42;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(68, 19, 19);
+    color: white;
+    padding: 20px;
+}
+
+.lblContact{
+    display: inline-block;
+}
+
+.price{
+    color: red;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.container{
+    width: 60%;
+    background-color: rosybrown;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container h2{
+    text-align: center;
+}
