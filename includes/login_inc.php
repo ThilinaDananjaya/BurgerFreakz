@@ -6,13 +6,13 @@ if (isset($_POST['login_submit'])) {
     $password = $_POST['password'];
 
     if (empty($username_email) || empty($password)) {
-        header("Location: ../login.html?error=emptyfields");
+        header("Location: ../login.php?error=emptyfields");
         exit();
     } else {
         $sql = "SELECT * FROM users WHERE user_username=? OR user_email=?";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
-            header("Location: ../login.html?error=sqlerror");
+            header("Location: ../login.php?error=sqlerror");
             exit();
         } else {
             mysqli_stmt_bind_param($stmt, "ss", $username_email, $username_email);
@@ -21,25 +21,25 @@ if (isset($_POST['login_submit'])) {
             if ($row = mysqli_fetch_assoc($result)) {
                 $password_check = password_verify($password, $row['user_password']);
                 if ($password_check == false) {
-                    header("Location: ../login.html?error=wrongpassword");
+                    header("Location: ../login.php?error=wrongpassword");
                     exit();
                 } elseif ($password_check == true) {
                     session_start();
                     $_SESSION['user_id']= $row['user_id'];
                     $_SESSION['user_username']= $row['user_username'];
-                    header("Location: ../index.html?login=success");
+                    header("Location: ../index_logged.php?login=success");
                     exit();
                 } else {
-                    header("Location: ../login.html?error=wrongpassword");
+                    header("Location: ../login.php?error=wrongpassword");
                     exit();
                 }
             } else {
-                header("Location: ../login.html?error=nouser");
+                header("Location: ../login.php?error=nouser");
                 exit();
             }
         }
     }
 } else {
-    header("Location: ../login.html");
+    header("Location: ../login.php");
     exit();
 }
