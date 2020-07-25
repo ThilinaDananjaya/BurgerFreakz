@@ -1,19 +1,18 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-section{
+section {
     height: 100vh;
 }
 
-
-h2{
+h2 {
     content: attr(data-text);
     color: black;
     font-size: 1.5em;
@@ -21,7 +20,7 @@ h2{
     padding-top: 50px;
 }
 
-ul{
+ul {
     width: 100%;
     background-color: rgb(95, 60, 60);
     height: 50px;
@@ -35,27 +34,25 @@ ul{
     z-index: 1000;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-ul li a{
+ul li a {
     color: white;
     box-sizing: border-box;
     line-height: 50px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-
 }
 
-.slider{
+.slider {
     margin-top: 50px;
     z-index: 1;
 }
 
 .card {
-    
     margin-top: 30px;
     margin-bottom: 30px;
     display: inline-block;
@@ -93,7 +90,6 @@ ul li a{
 .btn-whatsapp:hover {
     background-color: rgb(30, 163, 79);
 }
-
 
 .btn-facebook {
     background: url('img/fb.png') no-repeat left center;
@@ -141,8 +137,6 @@ ul li a{
     justify-content: space-around;
 }
 
-h2{
+h2 {
     text-align: center;
-   
 }
-
