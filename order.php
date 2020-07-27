@@ -9,10 +9,21 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="orderstyle.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+
+    <ul>
+        <li><a href="index_logged.php#home">Home</a></li>
+        <li><a href="index_logged.php#menu">Our Menu</a></li>
+        <li><a href="order.php">Order Now</a></li>
+        <li><a href="index_logged.php#team">Our Team</a></li>
+        <li><a href="index_logged.php#about">About Us</a></li>
+        <li><a href="index_logged.php#contact">Contact Us</a></li>
+        <li><a href="includes/logout_inc.php">Log Out</a></li>
+    </ul><br><br>
 
     <div class="container">
 
