@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SignUp</title>
 
+    <link rel="shortcut icon" href="img/logoIcon.png" type="image/x-icon">
+
     <!-- Font Icon -->
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
@@ -35,6 +37,8 @@
                                 echo '<p class="signuperror">Your passwords do not match!</p>';
                             } elseif ($_GET['error'] == "usertaken") {
                                 echo '<p class="signuperror">Username is already taken!</p>';
+                            } elseif ($_GET['error'] == "sqlerror") {
+                                echo '<p class="signuperror">Please Try Again Later!</p>';
                             }
                         }
                         ?>
@@ -52,17 +56,16 @@
                             <input type="password" class="form-input" name="password_repeat" id="password_repeat" placeholder="Confirm Password" required />
                             <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                         </div>
-
                         <div class="form-group">
                             <input type="checkbox" class="agree-term" name="agree-term" id="agree-term" required />
-                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all the statements in <a href="#" class="term-service">Terms of service</a></label>
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to all the statements in <a href="#" class="term-service">Terms of service</a></label>
                         </div>
                         <div class="form-group">
                             <button type="submit" name="signup_submit" id="signup_submit" class="form-submit" value="Sign up">Sign Up</button>
                         </div>
                     </form>
                     <p class="loginhere">
-                        Have already an account? <a href="login.php" class="loginhere-link">Login here</a>
+                        Aleady have an account? <a href="login.php" class="loginhere-link">Login here</a>
                     </p>
                 </div>
             </div>
