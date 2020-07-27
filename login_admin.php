@@ -6,11 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN AS ADMIN</title>
     <link rel="stylesheet" type="text/css" href="loginstyle.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logoIcon.png" type="image/x-icon">
 
 </head>
 
 <body>
+
+    <ul>
+        <li><a href="index.php#home">Home</a></li>
+        <li><a href="index.php#menu">Our Menu</a></li>
+        <li><a href="order.php">Order Now</a></li>
+        <li><a href="index.php#team">Our Team</a></li>
+        <li><a href="index.php#about">About Us</a></li>
+        <li><a href="index.php#contact">Contact Us</a></li>
+        <li><a href="login.php">Log In</a></li>
+        <li><a href="signup.php">Signup</a></li>
+    </ul><br><br>
+
     <section class="login">
         <div id="frm" class="container">
             <form action="includes/login_admin_inc.php" method="POST" id="signup-form" class="signup-form">
