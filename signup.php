@@ -14,9 +14,21 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="signupstyle.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <ul>
+        <li><a href="index.php#home">Home</a></li>
+        <li><a href="index.php#menu">Our Menu</a></li>
+        <li><a href="order.php">Order Now</a></li>
+        <li><a href="index.php#team">Our Team</a></li>
+        <li><a href="index.php#about">About Us</a></li>
+        <li><a href="index.php#contact">Contact Us</a></li>
+        <li><a href="login.php">Log In</a></li>
+        <li><a href="signup.php">Signup</a></li>
+    </ul><br><br><br>
 
     <div class="main">
 
