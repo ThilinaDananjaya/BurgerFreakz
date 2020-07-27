@@ -27,7 +27,7 @@ if (isset($_POST['signup_submit'])) {
         header("Location: ../signup.php?error=agreetoterms&username=" . $username . "&email=" . $email);
         exit();
     } else {
-        $sql = "SELECT user_username FROM users WHERE user_username=?";
+        $sql = "SELECT user_username FROM users WHERE user_username=?;";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
             header("Location: ../signup.php?error=sqlerror");
@@ -41,7 +41,7 @@ if (isset($_POST['signup_submit'])) {
                 header("Location: ../signup.php?error=usertaken&email=" . $email);
                 exit();
             } else {
-                $sql = "INSERT INTO users (user_username, user_email, user_password) VALUES (?, ?, ?)";
+                $sql = "INSERT INTO users (user_username, user_email, user_password) VALUES (?, ?, ?);";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
                     header("Location: ../signup.php?error=sqlerror");
