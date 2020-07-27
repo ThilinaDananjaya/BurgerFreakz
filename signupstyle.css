@@ -125,14 +125,6 @@ textarea:focus {
     -ms-box-shadow: none !important;
 }
 
-input[type=checkbox] {
-    appearance: checkbox !important;
-    -moz-appearance: checkbox !important;
-    -webkit-appearance: checkbox !important;
-    -o-appearance: checkbox !important;
-    -ms-appearance: checkbox !important;
-}
-
 input[type=radio] {
     appearance: radio !important;
     -moz-appearance: radio !important;
@@ -161,9 +153,9 @@ h2 {
     margin: 0;
     padding: 0;
     font-weight: 900;
-    color: #222;
+    color: rgb(0, 0, 0);
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 40px;
@@ -328,7 +320,7 @@ body {
     color: #222;
 }
 
-.form-signup_submit {
+.form-submit {
     width: 100%;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -337,7 +329,7 @@ body {
     -ms-border-radius: 5px;
     padding: 17px 20px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
@@ -347,6 +339,14 @@ body {
     background-image: -o-linear-gradient(to left, #74ebd5, #9face6);
     background-image: -webkit-linear-gradient(to left, #74ebd5, #9face6);
     background-image: linear-gradient(to left, #74ebd5, #9face6);
+}
+
+.form-submit:hover {
+    background-image: -moz-linear-gradient(to left, #4ce9cc, #798de7);
+    background-image: -ms-linear-gradient(to left, #4ce9cc, #798de7);
+    background-image: -o-linear-gradient(to left, #4ce9cc, #798de7);
+    background-image: -webkit-linear-gradient(to left, #4ce9cc, #798de7);
+    background-image: linear-gradient(to left, #4ce9cc, #798de7);
 }
 
 input[type=checkbox]:not(old) {
@@ -393,10 +393,10 @@ input[type=checkbox]:not(old):checked+label>span {
 }
 
 input[type=checkbox]:not(old):checked+label>span:before {
-    content: '\f26b';
+    content: '\2713\0020';
     display: block;
     color: #222;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.2;
     text-align: center;
     font-family: 'Material-Design-Iconic-Font';
@@ -405,12 +405,19 @@ input[type=checkbox]:not(old):checked+label>span:before {
 
 .label-agree-term {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     color: #555;
 }
 
 .term-service {
-    color: #555;
+    text-decoration: none;
+    font-weight: 700;
+    color: #2039c9;
+}
+
+.term-service:hover {
+    text-decoration: underline;
+    color: #0026ff;
 }
 
 .loginhere {
@@ -423,7 +430,13 @@ input[type=checkbox]:not(old):checked+label>span:before {
 
 .loginhere-link {
     font-weight: 700;
-    color: #222;
+    text-decoration: none;
+    color: #2039c9;
+}
+
+.loginhere-link:hover {
+    text-decoration: underline;
+    color: #0026ff;
 }
 
 .field-icon {
@@ -447,6 +460,3 @@ input[type=checkbox]:not(old):checked+label>span:before {
         padding: 50px 25px;
     }
 }
-
-
-/*# sourceMappingURL=style.css.map */
