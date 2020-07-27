@@ -26,6 +26,7 @@ session_start();
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#menu">Our Menu</a></li>
+        <li><a href="order.php">Order Now</a></li>
         <li><a href="#team">Our Team</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact Us</a></li>
@@ -76,7 +77,7 @@ session_start();
             <div class="card-body">
                 <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
                 <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
-                <a href="https://api.whatsapp.com/send?phone=94765271714&text=I-would-like-to-order-Crispy-Chicken-Cheese-Burgers&source=&data=&app_absent=" class="btn btn-primary" target="_blank">Order Now Through Whatsapp!</a>
+                <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--2-->
@@ -85,7 +86,7 @@ session_start();
             <div class="card-body">
                 <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
                 <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
-                <a href="https://api.whatsapp.com/send?phone=94765271714&text=I-would-like-to-order-Crispy-Chicken-Cheese-Burgers&source=&data=&app_absent=" class="btn btn-primary" target="_blank">Order Now Through Whatsapp!</a>
+                <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--3-->
@@ -94,7 +95,7 @@ session_start();
             <div class="card-body">
                 <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
                 <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
-                <a href="https://api.whatsapp.com/send?phone=94765271714&text=I-would-like-to-order-Crispy-Chicken-Cheese-Burgers&source=&data=&app_absent=" class="btn btn-primary" target="_blank">Order Now Through Whatsapp!</a>
+                <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--4-->
@@ -103,7 +104,7 @@ session_start();
             <div class="card-body">
                 <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
                 <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
-                <a href="https://api.whatsapp.com/send?phone=94765271714&text=I-would-like-to-order-Crispy-Chicken-Cheese-Burgers&source=&data=&app_absent=" class="btn btn-primary" target="_blank">Order Now Through Whatsapp!</a>
+                <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--5-->
@@ -112,7 +113,7 @@ session_start();
             <div class="card-body">
                 <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
                 <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
-                <a href="https://api.whatsapp.com/send?phone=94765271714&text=I-would-like-to-order-Crispy-Chicken-Cheese-Burgers&source=&data=&app_absent=" class="btn btn-primary" target="_blank">Order Now Through Whatsapp!</a>
+                <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--6-->
@@ -121,7 +122,7 @@ session_start();
             <div class="card-body">
                 <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
                 <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
-                <a href="https://api.whatsapp.com/send?phone=94765271714&text=I-would-like-to-order-Crispy-Chicken-Cheese-Burgers&source=&data=&app_absent=" class="btn btn-primary" target="_blank">Order Now Through Whatsapp!</a>
+                <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
 
