@@ -9,7 +9,7 @@ if (isset($_POST['login_submit'])) {
         header("Location: ../login.php?error=emptyfields");
         exit();
     } else {
-        $sql = "SELECT * FROM users WHERE user_username=? OR user_email=?";
+        $sql = "SELECT * FROM users WHERE user_username=? OR user_email=?;";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
             header("Location: ../login.php?error=sqlerror");
