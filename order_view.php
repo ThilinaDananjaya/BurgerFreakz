@@ -31,17 +31,18 @@
         <tr>
             <th>Customer Name</th>
             <th>Tel No.</th>
-            <th>Address</th>
-            <th>No of Crispy Chicken Cheese Burgers</th>
-            <th>No of Veggie Burgers</th>
-            <th>No of Egg Burgers</th>
-            <th>No of Beef Burgers</th>
+            <th>Customer Address</th>
+            <th>No of Chicken Submarines</th>
             <th>No of Large Burgers</th>
+            <th>No of Beef Burgers</th>
+            <th>No of Egg Burgers</th>
+            <th>No of Crispy Burgers</th>
+            <th>No of Veggie Burgers</th>
         </tr>
         <?php
         require 'includes/dbh_inc.php';
 
-        $sql = "SELECT customer_name, tel_no, customer_address, crispy_chicken_cheese_burger, veggie_burger, egg_burger, beef_burger, large_burger FROM orders;";
+        $sql = "SELECT customer_name, tel_no, customer_address, chicken_submarines, large_burger, beef_burger, egg_burger, crispy_burger, veggie_burger FROM orders;";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
             header("Location: ./index_admin_logged.php?error=sqlerror");
@@ -52,7 +53,7 @@
 
             if ($resultCheck > 0) {
                 while ($row = mysqli_fetch_assoc($result)) {
-                    echo "<tr><td>" . $row["customer_name"] . "</td><td>" . $row["tel_no"] . "</td><td>" . $row["customer_address"] . "</td><td>" . $row["crispy_chicken_cheese_burger"] . "</td><td>" . $row["veggie_burger"] . "</td><td>" . $row["egg_burger"] . "</td><td>" . $row["beef_burger"] . "</td><td>" . $row["large_burger"] . "</td></tr>";
+                    echo "<tr><td>" . $row["customer_name"] . "</td><td>" . $row["tel_no"] . "</td><td>" . $row["customer_address"] . "</td><td>" . $row["chicken_submarines"] . "</td><td>" . $row["large_burger"] . "</td><td>" . $row["beef_burger"] . "</td><td>" . $row["egg_burger"] . "</td><td>" . $row["crispy_burger"] . "</td><td>" . $row["veggie_burger"] . "</td></tr>";
                 }
             } else {
                 echo "No Orders";
