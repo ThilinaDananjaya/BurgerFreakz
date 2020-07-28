@@ -34,8 +34,6 @@
                 if (isset($_GET['error'])) {
                     if ($_GET['error'] == "noorders") {
                         echo '<p class="ordererror">Please Add Items To Order!</p>';
-                    } elseif ($_GET['error'] == "wrongpassword") {
-                        echo '<p class="ordererror">Wrong Password!</p>';
                     } elseif ($_GET['error'] == "sqlerror") {
                         echo '<p class="ordererror">Please Try Again Later!</p>';
                     }
@@ -58,7 +56,7 @@
 
                         <tr>
                             <td>
-                                <label class="form-control" id="OrderChoice">Crispy Chicken Cheese Burger</label>
+                                <label class="form-control" id="OrderChoice">Chicken Submarine</label>
                             </td>
 
                             <td>
@@ -68,7 +66,7 @@
 
                         <tr>
                             <td>
-                                <label class="form-control" id="OrderChoice">Veggie Burger</label>
+                                <label class="form-control" id="OrderChoice">Large Burger</label>
                             </td>
 
                             <td>
@@ -78,7 +76,7 @@
 
                         <tr>
                             <td>
-                                <label class="form-control" id="OrderChoice">Egg Burger</label>
+                                <label class="form-control" id="OrderChoice">Beef Burger</label>
                             </td>
 
                             <td>
@@ -88,7 +86,7 @@
 
                         <tr>
                             <td>
-                                <label class="form-control" id="OrderChoice">Beef Burger</label>
+                                <label class="form-control" id="OrderChoice">Egg Burger</label>
                             </td>
 
                             <td>
@@ -98,11 +96,21 @@
 
                         <tr>
                             <td>
-                                <label class="form-control" id="OrderChoice">Large Burger</label>
+                                <label class="form-control" id="OrderChoice">Crispy Burger</label>
                             </td>
 
                             <td>
                                 <input type="number" class="form-control" id="noOfItems5" name="noOfItems5" value="0" min="0">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label class="form-control" id="OrderChoice">Veggie Burger</label>
+                            </td>
+
+                            <td>
+                                <input type="number" class="form-control" id="noOfItems6" name="noOfItems6" value="0" min="0">
                             </td>
                         </tr>
                     </table>
