@@ -73,10 +73,10 @@ session_start();
 
         <!--1-->
         <div class="card" style="width: 16.6%;">
-            <img src="img/menu/crispy.jpg" class="card-img-top" alt="...">
+            <img src="img/menu/veggie.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
-                <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
+                <h5 class="card-title">Veggie Burger</h5>
+                <p class="card-text">Pure vegitable burger with onion and leaves. <br> <span class="price">Only RS 150</span></p>
                 <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
@@ -84,44 +84,44 @@ session_start();
         <div class="card" style="width: 16.6%;">
             <img src="img/menu/crispy.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
+                <h5 class="card-title">Crispy Burger</h5>
                 <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
                 <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--3-->
         <div class="card" style="width: 16.6%;">
-            <img src="img/menu/crispy.jpg" class="card-img-top" alt="...">
+            <img src="img/menu/egg.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
-                <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
+                <h5 class="card-title">Egg Burger</h5>
+                <p class="card-text">With fried egg and tasty cheese. <br> <span class="price">Only RS 200</span></p>
                 <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--4-->
         <div class="card" style="width: 16.6%;">
-            <img src="img/menu/crispy.jpg" class="card-img-top" alt="...">
+            <img src="img/menu/beef.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
-                <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
+                <h5 class="card-title">Beef Burger</h5>
+                <p class="card-text">With beef slices and tasty cheese. <br> <span class="price">Only RS 280</span></p>
                 <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--5-->
         <div class="card" style="width: 16.6%;">
-            <img src="img/menu/crispy.jpg" class="card-img-top" alt="...">
+            <img src="img/menu/large.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
-                <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
+                <h5 class="card-title">Large Burger</h5>
+                <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 700</span></p>
                 <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
         <!--6-->
         <div class="card" style="width: 16.6%;">
-            <img src="img/menu/crispy.jpg" class="card-img-top" alt="...">
+            <img src="img/menu/submarine.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Crispy Chicken Cheese Burger</h5>
-                <p class="card-text">With crispy chicken and tasty cheese. <br> <span class="price">Only RS 280</span></p>
+                <h5 class="card-title">Chicken Submarine</h5>
+                <p class="card-text">Submarine with crispy chicken and tasty cheese. <br> <span class="price">Only RS 150</span></p>
                 <a href="order.php" class="btn btn-primary" target="_blank">Order Now!</a>
             </div>
         </div>
@@ -132,21 +132,21 @@ session_start();
         <h2>Our team</h2>
 
         <div class="teamCard" style="width: 30%;">
-            <img src="img/mypic.jpg" class="card-img-top" alt="...">
+            <img src="img/yukthika.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text"> <span class="nameTitle">Yukthika</span> <br> Director of the company</p>
             </div>
         </div>
         <div class="teamCard" style="width: 30%;">
-            <img src="img/mypic.jpg" class="card-img-top" alt="...">
+            <img src="img/yasara.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text"><span class="nameTitle">Yasara</span> <br> Director of the company</p>
             </div>
         </div>
         <div class="teamCard" style="width: 30%;">
-            <img src="img/mypic.jpg" class="card-img-top" alt="...">
+            <img src="img/sashika.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text"><span class="nameTitle">Sashika</span> <br> Director of the company</p>
             </div>
         </div>
 
@@ -154,21 +154,21 @@ session_start();
 
     <section id="teamB">
         <div class="teamCard" style="width: 30%;">
-            <img src="img/mypic.jpg" class="card-img-top" alt="...">
+            <img src="img/rameshika.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text"><span class="nameTitle">Rameshika</span> <br> Director of the company</p>
             </div>
         </div>
         <div class="teamCard" style="width: 30%;">
-            <img src="img/mypic.jpg" class="card-img-top" alt="...">
+            <img src="img/supun.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text"><span class="nameTitle">Supun</span> <br> Main chef of the company</p>
             </div>
         </div>
         <div class="teamCard" style="width: 30%;">
-            <img src="img/mypic.jpg" class="card-img-top" alt="...">
+            <img src="img/rider.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text"><span class="nameTitle">Piumal</span> <br> Delivery rider of the company</p>
             </div>
         </div>
     </section>
@@ -184,7 +184,14 @@ session_start();
                 <div class="col-md-8">
                     <div class="card-body">
                         <h3 class="card-title">Who We Are ?</h3>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text" id="whoWe">We are Burger Freakz... <br>
+                            We are dedicated to offer our customers an extraordinary service... <br>
+                            We deliver quality and tasty burgers for an affordable price <br>
+                            that any company can't provide in the market... <br>
+                            So, For what are you waiting for... <br>
+                            Order now and feel the magic... <br>
+                            <br>
+                            Happiness In Every Bite!</p>
 
                     </div>
                 </div>
@@ -196,11 +203,11 @@ session_start();
 
         <div class="lblContact">
 
-            <button type="button" class="btn-whatsapp" id="whatsapp">Whatsapp</button>
+            <a href="" target="_blank"><button type="button" class="btn-whatsapp" id="whatsapp">WhatsApp</button></a>
 
-            <button type="button" class="btn-facebook" id="facebook">Facebook</button>
+            <a href="https://www.facebook.com/Burger-Freakz-108681087536234/" target="_blank"><button type="button" class="btn-facebook" id="facebook">Facebook</button></a>
 
-            <button type="button" class="btn-ig" id="instagram">Instagram</button>
+            <a href="https://www.instagram.com/burger_freakz/" target="_blank"><button type="button" class="btn-ig" id="instagram">Instagram</button></a>
         </div>
 
         <div id="footer">
