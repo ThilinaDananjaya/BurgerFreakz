@@ -205,7 +205,7 @@ session_start();
 
         <div class="lblContact">
 
-            <a href="" target="_blank"><button type="button" class="btn-whatsapp" id="whatsapp">WhatsApp</button></a>
+            <a href="https://api.whatsapp.com/send?phone=94765271714&text=Hey%20I%20would%20like%20to%20know%20about&source=&data=&app_absent=" target="_blank"><button type="button" class="btn-whatsapp" id="whatsapp">WhatsApp</button></a>
 
             <a href="https://www.facebook.com/Burger-Freakz-108681087536234/" target="_blank"><button type="button" class="btn-facebook" id="facebook">Facebook</button></a>
 
