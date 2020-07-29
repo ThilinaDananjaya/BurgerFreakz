@@ -70,7 +70,7 @@
                         </div>
                         <div class="form-group">
                             <input type="checkbox" class="agree-term" name="agree-term" id="agree-term" required />
-                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to all the statements in <a href="#" class="term-service">Terms of service</a></label>
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to all the statements in <a href="terms_of_service.php" class="term-service">Terms of service</a></label>
                         </div>
                         <div class="form-group">
                             <button type="submit" name="signup_submit" id="signup_submit" class="form-submit" value="Sign up">Sign Up</button>
