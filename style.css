@@ -121,6 +121,16 @@ ul li a {
     background-color: #b92a42;
 }
 
+#notfound {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(95, 60, 60);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
 #footer {
     text-align: center;
     margin-top: 70px;
@@ -139,4 +149,14 @@ ul li a {
 
 h2 {
     text-align: center;
+}
+
+.nameTitle {
+    font-size: 24px;
+    font-weight: 800;
+    color: navy;
+}
+
+#whoWe {
+    font-size: 24px;
 }
